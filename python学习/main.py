@@ -15,6 +15,3 @@ print_hi('pycharm')
 
 
 
-
-
-

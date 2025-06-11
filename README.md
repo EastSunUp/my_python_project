@@ -1,6 +1,8 @@
+
 -----------------------------------------------------------------
 # introduction of README file
 # This file described changes of my python project !
+
 -----------------------------------------------------------------
 Published Version: Ver1.0   Date: 2025/06/10
 General Description:
