@@ -1,0 +1,77 @@
+
+
+HTML元素参考:
+    https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Elements
+
+HTML基础
+    - 了解HTML文档结构（`<html>`, `<head>`, `<body>`等）
+   - 熟悉常用标签及其属性（`class`, `id`, `href`, `src`等）
+   - 理解CSS选择器（因为BeautifulSoup的`select`方法使用CSS选择器语法）
+必须掌握的 HTML 基础
+    标签结构：<标签名 属性="值">内容</标签名>
+        <div id="main" class="container">  <!-- 开始标签 -->
+        网页主体内容...
+        </div>  <!-- 结束标签 -->
+    属性(attributes):
+        class:  CSS类名（多个用空格分隔）
+        id:     唯一标识符
+        src:    资源路径（用于img/script）
+        href:   链接地址（用于a标签）
+
+HTML的标签与属性大全
+    HTML定义了一系列的标签,每个标签都有特定的语义和用途.
+    常见的标签有：
+        - `div`:                        块级容器,用于布局
+        - `p`:                          段落
+        - `a`:                          超链接
+        - `img`:                        图片
+        - `span`:                       行内容器
+        - `h1`~`h6`:                    标题
+        - `ul`, `ol`, `li`:             列表
+        - `table`, `tr`, `th`, `td`:    表格
+        - `form`, `input`, `button`:    表单相关
+
+    HTML属性大全:
+    1.  标准属性（可直接用）
+        属性名	    用途	                BeautifulSoup写法
+        id	        唯一标识	            id='main'
+        class	    样式类	            class_='menu'
+        href	    链接地址	            href='/about'
+        src	        资源地址	            src='logo.png'
+        type	    输入类型	            type='text'
+        value	    表单值	            value='submit'
+        name	    表单名称	            name='email'
+    2. 自定义属性（需转换）
+        HTML写法	        BeautifulSoup写法	规则
+        data-id="123"	data_id='123'	    短横线变下划线
+        x-data="abc"	x_data='abc'	    同上
+        custom:attr	    必须用attrs字典	    包含特殊字符
+    3. 特殊属性
+        属性	            处理方式	            示例
+        class	        必须用class_	        class_='active'
+        for	用for_       (保留字冲突)	        for_='username'
+        多值class	    用CSS选择器或部分匹配	select('.btn.large')
+
+------------------------------------------------------------------------------
+Python网络编程
+    - 使用`requests`库发送HTTP请求
+    - 使用`BeautifulSoup`或`lxml`解析HTML
+    - 处理异常（网络超时、解析错误等）
+
+HTTP协议基础
+    - 了解GET/POST请求
+   - 状态码（200, 404, 500等）
+   - 请求头（User-Agent, Cookie等）和响应头
+
+------------------------------------------------------------------------------
+假设我们要爬取一个网页上的所有引用（quote）,HTML结构如下:
+    html
+    <div class="quote">
+    <span class="text">“这是第一句引用”</span>
+    <span class="author">- 作者1</span>
+    </div>
+    <div class="quote">
+    <span class="text">“这是第二句引用”</span>
+    <span class="author">- 作者2</span>
+    </div>
+
