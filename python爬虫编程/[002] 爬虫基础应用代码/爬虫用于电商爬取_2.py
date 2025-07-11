@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import csv
 import time
 
-
 def monitor_prices(urls):
     results = []
     for url in urls:
@@ -30,8 +29,9 @@ def monitor_prices(urls):
 
 
 # 进阶功能示例（价值约8000元）
-# - 自动更换代理IP
-# - 邮件价格报警
+    # 实现功能:
+        # - 自动更换代理IP
+        # - 价格达到阈值时,自动发送邮件价格报警
 # - 历史价格对比
 def check_price_drop(current_price, product_id):
     # 从数据库获取30天最低价
@@ -49,13 +49,13 @@ def send_alert_email(subject, content):
     import smtplib
     from email.mime.text import MIMEText
 
-    msg = MIMEText(content)
-    msg['Subject'] = subject
-    msg['From'] = 'monitor@yourcompany.com'
-    msg['To'] = 'admin@yourcompany.com'
+    msg = MIMEText(content) # 邮件发送的内容
+    msg['Subject'] = subject    # 发送的邮件主题
+    msg['From'] = 'monitor@yourcompany.com' # 邮件发件人(邮箱)
+    msg['To'] = 'admin@yourcompany.com' # 邮件收件人(邮箱)
 
     with smtplib.SMTP('smtp.server.com', 587) as server:
-        server.login('user', 'password')
+        server.login('user', 'password')    # 登录邮箱
         server.send_message(msg)
 
 # 使用示例
