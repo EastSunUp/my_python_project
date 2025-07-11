@@ -1,8 +1,8 @@
 
+
 import sys
 import subprocess
 from pathlib import Path
-
 
 def get_pip_location():
     result = subprocess.run(['pip', '-V'], capture_output=True, text=True)

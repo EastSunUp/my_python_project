@@ -1,3 +1,5 @@
+
+# 本代码仅作示例使用!
 # 高水平示例
 from collections import Counter
 

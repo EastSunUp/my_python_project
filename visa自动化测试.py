@@ -1,5 +1,5 @@
 
-
+# 新增文件?
 # 示例：用AI生成你需要的PyVISA代码（完全可用现有知识修改）
 # 对AI提问："用PyVISA连接KEYSIGHT示波器，截图并保存为JSON"
 import visa
