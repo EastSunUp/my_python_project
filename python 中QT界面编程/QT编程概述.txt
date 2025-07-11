@@ -1,0 +1,7 @@
+
+# QT编程主要是使用python中的pyqt5库.
+# QtDesigner可以将对应的编程界面生成相应的c++代码
+# 使用QtDesigner时,其中的控件会有相应的约束条件、参数信息设置
+# 可以使用PYUIC将QtDesigner生成的c++代码生成为对应的python代码
+
+# TODO 本部分其它内容描述、代码内容等有待补充完善 (2025/07/11)
