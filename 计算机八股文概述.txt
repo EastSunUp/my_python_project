@@ -1,0 +1,28 @@
+
+
+
+
+
+八股文主要覆盖计算机基础理论和主流技术栈,可细分为以下领域：
+
+计算机基础
+    操作系统:        进程/线程区别、死锁条件、内存管理（堆/栈区别）
+    计算机网络:       TCP三次握手、HTTP/HTTPS区别、DNS解析过程
+    数据结构与算法:    排序算法（快排、归并）、二叉树遍历、哈希表实现
+Java技术栈(国内主流方向)
+    JVM:         类加载机制、内存分区（堆/栈/方法区）、GC算法
+                 对象从创建到GC的生命周期;G1与ZGC垃圾回收器差异
+    多线程:       线程状态流转、synchronized与volatile区别、线程池参数
+                 线程池的corePoolSize与maxPoolSize作用;
+                 ReentrantLock与synchronized优劣
+    框架:         Spring IOC/AOP原理、MyBatis #{}与${}区别、Redis缓存穿透解决方案
+                 volatile如何保证可见性?
+数据库与中间件
+    MySQL:    事务ACID、索引优化（B+树）、锁机制（行锁/表锁）
+    Redis:     持久化方式（RDB/AOF）、缓存雪崩/击穿应对策略
+    消息队列:   RabbitMQ消息可靠性保证、Kafka副本同步机制
+系统设计与调试
+    分布式锁实现、CAP理论、微服务熔断机制48
+    调试工具:   GDB分析Core文件、Valgrind检测内存泄漏
+    设计一个短链系统；如何实现秒杀限流
+
