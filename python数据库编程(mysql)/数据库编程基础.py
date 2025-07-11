@@ -1,6 +1,7 @@
 
 import mysql.connector
 
+# TODO 尝试应用数据库编程,代码需要结合实际应用
 # 创建数据库连接
 mydb = mysql.connector.connect(
     host="localhost",  # 数据库主机地址
