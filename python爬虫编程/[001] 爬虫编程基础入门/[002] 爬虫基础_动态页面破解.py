@@ -3,7 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 接单报价：800-2000元/单
+
+# 接单报价: 800-2000元/单
 # 自动下载浏览器驱动
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get('https://www.jd.com')

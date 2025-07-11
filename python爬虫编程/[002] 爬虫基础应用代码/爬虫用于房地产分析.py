@@ -1,4 +1,5 @@
 
+# TODO 该代码不能运行,需要调试 !
 import requests
 from bs4 import BeautifulSoup # 引用的时候应该这样引用
 # beautifulsoup的安装包名称叫做beautifulsoup4而不是beautifulsoup

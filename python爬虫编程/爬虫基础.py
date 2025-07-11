@@ -6,6 +6,7 @@ import aiohttp
 # import requests
 import requests
 
+# TODO 该代码没有调试,不能运行,记得调试 !
 html = etree.HTML(response.text)
 title = html.xpath('//h1[@class="title"]/text()')[0]
 

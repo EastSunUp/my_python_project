@@ -1,6 +1,7 @@
 
 # 使用以下指令安装request库:
 # pip install requests
+# 除了request之外,还有哪些的库也能实现类似的功能?
 
 import requests
 import json

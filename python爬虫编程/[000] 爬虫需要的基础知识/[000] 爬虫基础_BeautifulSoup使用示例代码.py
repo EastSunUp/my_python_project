@@ -141,7 +141,7 @@ soup(BeautifulSoup)的函数有哪些？
         soup.select('div.item > a')     # div.item 下的直接子元素a标签
 '''
 
-import re # 正则表达式
+import re # 正则表达式,熟习正则表达式的语法
 import requests
 from bs4 import BeautifulSoup
 
