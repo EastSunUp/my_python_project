@@ -2,6 +2,8 @@
 # 示例：VMLogin API 调用（需先安装其 SDK）
 from vmlogin import VMLogin # 这个包不知道为什么安装不了
 
+# TODO 这个文件的代码运行不了,不知道缺少哪个包还是什么东西?
+
 goods_id = 62262510595
 target_url = f'https://mobile.yangkeduo.com/goods.html?goods_id={goods_id}'
 profile_id = "your_profile_id"
