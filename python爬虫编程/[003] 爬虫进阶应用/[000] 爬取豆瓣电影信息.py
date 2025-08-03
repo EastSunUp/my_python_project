@@ -7,15 +7,22 @@ import csv
 import os
 import re
 
+# TODO 豆瓣网最新加入了验证码机制,这份爬虫代码需要更新(增加cookies验证机制)
 # 设置请求头模拟浏览器访问
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'Referer': 'https://www.baidu.com/',    # 'https://www.google.com/',
     'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
     'Connection': 'keep-alive'
 }
 
 def get_movie_details(url):
     """获取单个电影的详细信息"""
+    time.sleep(random.uniform(1.0, 3.5))  # 随机延迟避免被封
+    # 使用会话保持Cookies
+    session = requests.Session()
+    session.headers.update(headers)
+    # response = session.get(url)
     time.sleep(random.uniform(1.0, 2.5))  # 随机延迟避免被封
     response = requests.get(url, headers=headers)
 
@@ -37,7 +44,7 @@ def get_movie_details(url):
     year = re.search(r'(\d{4})', info).group(1) if re.search(r'(\d{4})', info) else ""
     region = re.search(r'制片国家/地区: (.*?)\n', info)
     region = region.group(1).strip() if region else ""                          # 提取地区
-    # 为什么有的时候使用select? 有点时候不用?
+    # 为什么有的时候使用select? 有点时候不用?(select的意思是提取,有分类的功能)
     genres = [a.text.strip() for a in soup.select('span[property="v:genre"]')]  # 提取类型
 
     # 提取简介
@@ -70,7 +77,7 @@ def scrape_douban_top250():
         response = requests.get(url, headers=headers)
 
         if response.status_code != 200:
-            print(f"请求失败，状态码: {response.status_code}")
+            print(f"请求失败,状态码: {response.status_code}")
             continue
 
         soup = BeautifulSoup(response.text, 'html.parser')
