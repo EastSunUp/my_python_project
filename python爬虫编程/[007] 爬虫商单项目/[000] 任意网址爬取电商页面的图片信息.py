@@ -23,7 +23,7 @@ class ImageDownloader(QThread):
     # 在关于菜单中添加
     def show_about(self):
         text = """<b>拼多多商品图片爬取工具</b><p>
-        本工具仅用于技术学习，请遵守:<ul>
+        本工具仅用于技术学习,请遵守:<ul>
         <li>《网络安全法》</li>
         <li>《电子商务法》</li>
         <li>拼多多用户协议</li></ul>
