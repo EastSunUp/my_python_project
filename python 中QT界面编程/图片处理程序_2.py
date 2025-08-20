@@ -41,7 +41,7 @@ class ImageResizerApp:
         self.size_var = tk.StringVar(value="260×260")
         ttk.Label(self.control_frame, textvariable=self.size_var).grid(row=1, column=1, sticky="w", pady=5)
 
-        # 处理选项
+        # 处理选项(直接拉伸、裁剪为正方形、填充为正方形)
         self.option_var = tk.StringVar(value="stretch")
         ttk.Radiobutton(self.control_frame, text="直接拉伸(可能变形)",
                         variable=self.option_var, value="stretch").grid(row=2, column=0, columnspan=3, sticky="w",
@@ -55,10 +55,9 @@ class ImageResizerApp:
         ttk.Label(self.control_frame, text="填充背景颜色:").grid(row=5, column=0, sticky="w", pady=5)
         self.color_var = tk.StringVar(value="#FFFFFF")
         color_options = ["白色(#FFFFFF)", "黑色(#000000)", "灰色(#CCCCCC)", "自定义..."]
-        ttk.Combobox(self.control_frame, textvariable=self.color_var, values=color_options, width=15).grid(row=5,
-                                                                                                           column=1,
-                                                                                                           sticky="w",
-                                                                                                           pady=5)
+        ttk.Combobox(
+            self.control_frame, textvariable=self.color_var, values=color_options, width=15
+        ).grid(row=5,column=1,sticky="w",pady=5)
 
         # 处理按钮
         ttk.Button(self.control_frame, text="预览效果", command=self.preview_image).grid(row=6, column=0, pady=15,
@@ -97,7 +96,7 @@ class ImageResizerApp:
 
     def load_image(self):
         try:
-            self.original_image = Image.open(self.image_path)
+            self.original_image = Image.open(self.image_path)   # 传输Image对象,这个对象可以对图片做一系列处理
             self.show_image(self.original_image)
             self.update_info(f"已加载图片: {os.path.basename(self.image_path)}\n"
                              f"原始尺寸: {self.original_image.width}×{self.original_image.height} 像素")
@@ -108,7 +107,7 @@ class ImageResizerApp:
         # 调整预览大小
         preview_size = (350, 350)
         preview_img = image.copy()
-        preview_img.thumbnail(preview_size)
+        preview_img.thumbnail(preview_size) # 调整预览大小?
 
         # 转换为Tkinter可显示的格式
         tk_img = ImageTk.PhotoImage(preview_img)
@@ -138,7 +137,7 @@ class ImageResizerApp:
             right = (width + crop_size) / 2
             bottom = (height + crop_size) / 2
 
-            cropped = self.original_image.crop((left, top, right, bottom))
+            cropped = self.original_image.crop((left, top, right, bottom))  # 图片裁剪函数
             return cropped.resize(target_size)
 
         elif option == "fill":
@@ -188,6 +187,7 @@ class ImageResizerApp:
             messagebox.showwarning("警告", "请先生成预览!")
             return
 
+        # filedialog.asksaveasfilename会发起一个对话框，询问邀请用户选择图片的保存路径位置
         save_path = filedialog.asksaveasfilename(
             defaultextension=".png",
             filetypes=[("PNG 图片", "*.png"), ("JPEG 图片", "*.jpg"), ("所有文件", "*.*")]
