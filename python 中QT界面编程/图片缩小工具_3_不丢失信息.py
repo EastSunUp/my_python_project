@@ -32,7 +32,7 @@ class ImageResizerApp:
         title_label.pack(pady=(0, 15))
 
         # 说明文字
-        desc_text = "将图片按比例缩小到260×260像素，保持原始内容不变形\n空白区域将使用背景色填充"
+        desc_text = "将图片按比例缩小到260×260像素,保持原始内容不变形\n空白区域将使用背景色填充"
         desc_label = tk.Label(
             main_frame,
             text=desc_text,
