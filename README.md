@@ -2,7 +2,7 @@
 -------------------------------------------------------------------------------------------------------------
 # introduction of README file
 # This file described changes of my python project !
-# my GitHub address: https://github.com/EastSunUp/my_python_project.git
+# My github url: https://github.com/EastSunUp/my_python_project.git !
 -------------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------------
