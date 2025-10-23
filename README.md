@@ -17,17 +17,17 @@ New Features:
     无
 Bug Fix:
     无
+New Folder:
+    1.folder: python 学习/python中基础学习/python中关于装饰器的学习
+    2.folder: python 学习/python中基础学习/python中获取函数名称
+    3.folder: python 学习/面向对象的学习/python中的元类
 New File:
-    1.文件夹: python 学习/python中基础学习/python中关于装饰器的学习
-    2.文件夹: python 学习/python中基础学习/python中获取函数名称
-    3.文件夹: python 学习/面向对象的学习/python中的元类
-    -----------------------------------------------------------------
-    1.文件: join详解.py
-    2.文件: python中元组与列表的区别.py
-    3.文件: python中把两个字典合并成一个字典.py
-    4.文件: python中虚假的多线程.py
-    5.文件: 
-    6.文件: 
+    1.file: join详解.py
+    2.file: python中元组与列表的区别.py
+    3.file: python中把两个字典合并成一个字典.py
+    4.file: python中虚假的多线程.py
+    5.file: 
+    6.file: 
 -------------------------------------------------------------------------------------------------------------
 Published Version: Ver 3.3   Date: 2025/08/03
 General Description:
@@ -40,17 +40,17 @@ New Features:
     无
 Bug Fix:
     无
+New Folder:
+    1.folder: python 中QT界面编程
+    2.folder: 
+    3.folder:
 New File:
-    1.文件夹: python 中QT界面编程
-    2.文件夹: 
-    3.文件夹:
-    -----------------------------------------------------------------
-    1.文件: python学习/python模拟鼠标与键盘操作/模拟鼠标操作打开浏览器,并执行对应动作.py
-    2.文件: 一些即兴代码/电梯算法.py
-    3.文件: 一些即兴代码/自研算法_密码解锁.py
-    4.文件: 算法习题/虚拟IPV4地址转换.py
-    5.文件: python 游戏编程(项目)/python游戏编程_初学.py
-    6.文件: 程序员水平评估代码.py
+    1.file: python学习/python模拟鼠标与键盘操作/模拟鼠标操作打开浏览器,并执行对应动作.py
+    2.file: 一些即兴代码/电梯算法.py
+    3.file: 一些即兴代码/自研算法_密码解锁.py
+    4.file: 算法习题/虚拟IPV4地址转换.py
+    5.file: python 游戏编程(项目)/python游戏编程_初学.py
+    6.file: 程序员水平评估代码.py
 -------------------------------------------------------------------------------------------------------------
 Published Version: Ver 3.2   Date: 2025/08/03
 General Description:
@@ -63,15 +63,15 @@ New Features:
     无
 Bug Fix:
     无
+New Folder:
+    1.folder: python爬虫编程/[007] 爬虫商单项目/根据goods_id获取PDD的商品相关信息
+    2.folder: python爬虫编程/[006] 爬虫商单立项
+    3.folder: python爬虫编程/[007] 爬虫商单项目/验证草稿代码
+    4.folder: python爬虫编程/[007] 爬虫商单项目/商单签署与注意事项
 New File:
-    1.文件夹: python爬虫编程/[007] 爬虫商单项目/根据goods_id获取PDD的商品相关信息
-    2.文件夹: python爬虫编程/[006] 爬虫商单立项
-    3.文件夹: python爬虫编程/[007] 爬虫商单项目/验证草稿代码
-    4.文件夹: python爬虫编程/[007] 爬虫商单项目/商单签署与注意事项
-    -----------------------------------------------------------------
-    1.文件: 
-    2.文件:
-    3.文件:
+    1.file: 
+    2.file:
+    3.file:
 -------------------------------------------------------------------------------------------------------------
 Published Version: Ver 3.1   Date: 2025/08/03
 General Description:
@@ -81,12 +81,12 @@ New Features:
     无
 Bug Fix:
     无
+New Folder:
+    1.folder: python爬虫编程/[----] 反反爬技巧集合
+    2.folder: python爬虫编程/[002] 爬虫基础应用代码
+    3.folder: python爬虫编程/[003] 爬虫进阶应用
 New File:
-    1.文件夹: python爬虫编程/[----] 反反爬技巧集合
-    2.文件夹: python爬虫编程/[002] 爬虫基础应用代码
-    3.文件夹: python爬虫编程/[003] 爬虫进阶应用
-    -----------------------------------------------------------------
-    1.文件: python爬虫编程/爬虫基础.py
+    1.file: python爬虫编程/爬虫基础.py
 -------------------------------------------------------------------------------------------------------------
 Published Version: Ver 3.0   Date: 2025/08/03
 General Description:
@@ -99,20 +99,20 @@ New Features:
 Bug Fix:
     无
 New File:
-    1.文件夹: python学习/python 网络编程学习
-    2.文件夹: python学习/python 中的内置函数学习/获取当下文件的文件夹路径.py
-    3.文件夹: python学习/python模拟鼠标与键盘操作
+    1.folder: python学习/python 网络编程学习
+    2.folder: python学习/python 中的内置函数学习/获取当下文件的文件夹路径.py
+    3.folder: python学习/python模拟鼠标与键盘操作
     -----------------------------------------------------------------
-    1.文件: python学习/python量化交易代码___示例.py
-    2.文件: python学习/下载旧版本chroma138.0.7204.157.py
-    3.文件: python学习/多线程编程学习/多线程学习入门.py
-    4.文件: python学习/数据结构学习_图/使用python实现一个图.py
-    5.文件: python学习/浏览器打开网址.py
-    6.文件: python学习/解除chrome浏览器的自动更新禁用.py
-    7.文件: python学习/配置log输出日志_debug.py
-    8.文件: python学习/python 网络编程学习/flask测试代码.py
-    9.文件: python学习/python 网络编程学习/flask示例代码.py
-    10.文件: 
+    1.file: python学习/python量化交易代码___示例.py
+    2.file: python学习/下载旧版本chroma138.0.7204.157.py
+    3.file: python学习/多线程编程学习/多线程学习入门.py
+    4.file: python学习/数据结构学习_图/使用python实现一个图.py
+    5.file: python学习/浏览器打开网址.py
+    6.file: python学习/解除chrome浏览器的自动更新禁用.py
+    7.file: python学习/配置log输出日志_debug.py
+    8.file: python学习/python 网络编程学习/flask测试代码.py
+    9.file: python学习/python 网络编程学习/flask示例代码.py
+    10.file: 
 -------------------------------------------------------------------------------------------------------------
 Published Version: Ver 2.1   Date: 2025/07/11
 General Description:
@@ -128,13 +128,13 @@ New Features:
     无
 Bug Fix:
     无
+New Folder:
+    1.folder:
+    2.folder:
+    3.folder:
 New File:
-    1.文件夹:
-    2.文件夹:
-    3.文件夹:
-    -----------------------------------------------------------------
-    1.文件: 
-    2.文件:
+    1.file: 
+    2.file:
 -------------------------------------------------------------------------------------------------------------
 Published Version: Ver 2.0   Date: 2025/07/07
 General Description:
@@ -149,13 +149,13 @@ New Features:
     无
 Bug Fix:
     无
+New Folder:
+    1.folder:
+    2.folder:
+    3.folder:
 New File:
-    1.文件夹:
-    2.文件夹:
-    3.文件夹:
-    -----------------------------------------------------------------
-    1.文件: 
-    2.文件:**
+    1.file: 
+    2.file:**
 -------------------------------------------------------------------------------------------------------------
 Published Version: Ver 1.0   Date: 2025/06/10
 General Description:
@@ -164,13 +164,13 @@ New Features:
     无
 Bug Fix:
     无
+New Folder:
+    1.folder:<python学习>
+    2.folder:<一些即兴代码>
+    3.folder:<算法习题>
 New File:
-    1.文件夹:<python学习>
-    2.文件夹:<一些即兴代码>
-    3.文件夹:<算法习题>
-    -----------------------------------------------------------------
-    1.文件: check_my_python_config.py
-    2.文件: Timer_Acquirer.py
+    1.file: check_my_python_config.py
+    2.file: Timer_Acquirer.py
 -------------------------------------------------------------------------------------------------------------
     
 
