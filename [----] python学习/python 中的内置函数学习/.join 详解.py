@@ -17,6 +17,8 @@
     处理非字符串元素	"".join(map(str, [1,2]))	"12"
     连接路径片段	    "/".join(["dir","sub"])	    "dir/sub"
     高效拼接大量字符串	"".join(big_list)	        避免内存碎片
+
+    # join, 字符串拼接函数, 字符替代 (为什么不用+号做字符串拼接, 效率与内存问题)
 '''
 
 # 基本连接（无分隔符）
@@ -47,6 +49,7 @@ print(result)  # 输出: P-y-t-h-o-n
 # 集合
 unique_chars = {"a", "b", "c"}
 result = "|".join(unique_chars)  # 可能输出: a|c|b (顺序随机)
+print(result)
 
 '''
     注意事项:
@@ -74,8 +77,10 @@ result = "|".join(unique_chars)  # 可能输出: a|c|b (顺序随机)
 s = ""
 for char in ["a", "b", "c"]:
     s += char  # 每次循环创建新字符串
+print(s)
 # 高效方式
 s = "".join(["a", "b", "c"])
+print(s)
 
 # -------------------------进阶用法----------------------------------
 # 连接文件路径(跨平台安全)
