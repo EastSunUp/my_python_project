@@ -1,16 +1,16 @@
 
+
 # AI写的代码
 import tkinter as tk
 from tkinter import messagebox
 import random
 import copy
 
-
 class Game2048:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("2048 游戏")
-        self.root.geometry("500x600")
+        self.root.geometry("500x630")
         self.root.resizable(False, False)
 
         # 游戏状态
@@ -37,7 +37,7 @@ class Game2048:
 
     def setup_ui(self):
         # 标题
-        title_label = tk.Label(self.root, text="2048", font=("Arial", 32, "bold"), fg="#776E65")
+        title_label = tk.Label(self.root, text="2048小游戏", font=("Arial", 32, "bold"), fg="#776E65")
         title_label.pack(pady=10)
 
         # 分数显示
@@ -45,7 +45,7 @@ class Game2048:
         self.score_label.pack(pady=5)
 
         # 游戏说明
-        instruction_label = tk.Label(self.root, text="使用方向键移动，相同数字会合并", font=("Arial", 12), fg="#776E65")
+        instruction_label = tk.Label(self.root, text="使用方向键移动,相同数字会合并", font=("Arial", 12), fg="#776E65")
         instruction_label.pack(pady=5)
 
         # 游戏网格框架
@@ -238,7 +238,6 @@ class Game2048:
     def run(self):
         """运行游戏"""
         self.root.mainloop()
-
 
 if __name__ == "__main__":
     game = Game2048()
