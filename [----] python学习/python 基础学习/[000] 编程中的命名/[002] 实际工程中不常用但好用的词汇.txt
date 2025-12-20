@@ -1,0 +1,25 @@
+
+
+对仗词：让代码逻辑清晰。
+    begin / end
+    start / stop
+    open / close
+    source / destination / target
+    input / output
+    from / to
+    request / response
+    client / server
+    producer / consumer
+    sender / receiver
+
+不常用但精准的词：
+    hydrate / dehydrate： 将数据填充到对象/从对象中提取数据（常用于序列化前后）.
+    sanitize：               消毒，清理不安全输入.
+    debounce / throttle：    防抖/节流.
+    traverse：               遍历（尤其对树形结构）.
+    emit / dispatch：        发出（事件）.
+    mutate：                 改变（强调原地修改，常用于状态管理）.
+    yield：                  产出（生成器函数）.
+    peek：                   窥视（获取但不移除，如从队列）.
+    enrich：                 丰富，添加额外信息到数据中.
+

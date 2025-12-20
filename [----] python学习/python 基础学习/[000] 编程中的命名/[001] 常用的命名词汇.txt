@@ -1,0 +1,113 @@
+
+1. 动词库（用于函数/方法名）
+    增删改查（CRUD）及数据操作：
+        get/fetch/retrieve:     获取数据（getUserById）.
+        set/update/apply:       设置或更新（setUserName）.
+        create/add/insert:      新增（createOrder, addItem）.
+        delete/remove:          删除（removeFromCart）.
+        find/search/query:      查找（findActiveUsers）.
+        load/loadFrom:          加载（loadConfig）.
+        save/saveTo/persist:    保存（savePreferences）.
+        send/submit/post:       发送（submitForm, postComment）.
+        receive/parse:          接收/解析（parseResponse）.
+        clone/duplicate/copy:   复制.
+        merge/combine:          合并.
+        filter/exclude:         过滤/排除（filterOutliers）.
+        sort/orderBy:           排序.
+        transform/map/convert:  转换（mapToDTO）.
+
+    校验与判断:
+        validate/check:     验证（validateEmail）
+        is/has (返回布尔值):  isEmpty, hasLicense.
+        exists:             判断是否存在.
+        compare:            比较（compareVersions）.
+
+    计算与处理:
+        calculate/compute:      计算（calculateTax）.
+        generate:               生成（generateReport, generateId）.
+        aggregate/summarize:    聚合/汇总.
+        normalize/format:       规范化/格式化.
+        encode/decode:          编码/解码.
+        encrypt/decrypt:        加密/解密.
+        compress/decompress:    压缩/解压.
+
+    状态与流程控制：
+        initialize/init/setup： 初始化。
+        start/stop/pause/resume： 开始/停止/暂停/恢复。
+        enable/disable： 启用/禁用。
+        show/hide/display/render： 显示/隐藏/渲染。
+        open/close： 打开/关闭（连接、文件等）。
+        reset/clear： 重置/清空。
+        handle/on (用于事件)：handleClick, onMessageReceived。
+
+    高级操作：
+        schedule： 调度。
+        notify/emit： 通知/发射事件。
+        register/unregister： 注册/注销。
+        import/export： 导入/导出。
+        sync/async： 同步/异步。
+
+2.名词库（用于变量、类、属性名）
+    数据与模型：
+        user, customer, admin
+        product, item, goods
+        order, invoice, receipt
+        message, comment, post, article
+        file, document, image, attachment
+        config/configuration, settings, preferences
+        context, environment, session
+
+    状态与标志：
+        status： 状态（orderStatus）。
+        state： 状态（常用于状态机，appState）。
+        mode： 模式（editMode, viewMode）。
+        type/kind： 类型（userType, messageKind）。
+        flag： 标志位。
+        result/outcome： 结果。
+        error/exception： 错误/异常。
+
+    集合与容器：
+        list, array, collection： 列表/数组/集合。
+        map, dictionary, keyValuePairs： 映射/字典。
+        set： 集合（不重复）。
+        queue, stack： 队列/栈。
+        pool, cache： 池/缓存。
+
+    组件与结构：
+        manager, controller, service:   管理器/控制器/服务（用于组织逻辑的类）。
+        handler, processor:             处理器。
+        adapter, wrapper, proxy:        适配器/包装器/代理。
+        factory, builder:               工厂/建造者。
+        strategy, policy:               策略。
+        view, component, widget:        视图/组件。
+        dao/repository:                 数据访问对象/仓库。
+
+3.形容词与副词（用于修饰）
+    current/selected/active： 当前的/选中的/激活的。
+    previous/next： 上一个/下一个。
+    temporary/temp： 临时的。
+    global/local： 全局的/本地的。
+    internal/external： 内部的/外部的。
+    default： 默认的。
+    required/optional： 必需的/可选的。
+    valid/invalid： 有效的/无效的。
+    success/failed： 成功的/失败的。
+    async/sync： 异步的/同步的。
+
+4.常用前缀/后缀（精准表达）
+    前缀：
+        min/max： 最小/最大值。
+        total/sum： 总和。
+        avg/average： 平均值。
+        num/count： 数量（numUsers, itemCount）。
+        raw： 原始的（rawData）。
+        parsed/formatted： 解析后的/格式化后的。
+    后缀：
+        List/Array/Collection:  集合（userList）.
+        Map/Dict:               映射（configMap）.
+        Util/Helper:            工具类.
+        Impl:                   实现（UserServiceImpl）.
+        DTO/VO/PO:              数据传输对象等.
+        InMillis/InSeconds:     明确单位（timeoutInMillis）.
+
+

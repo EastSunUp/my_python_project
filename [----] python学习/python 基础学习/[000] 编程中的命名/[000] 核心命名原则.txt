@@ -1,0 +1,11 @@
+
+一、 编程中命名的核心原则（先掌握心法）
+    明确性高于简洁性：   calculateMonthlyRevenue 永远比 calcRev 好。
+    使用正确的词性：
+    变量/属性：      使用名词或形容词+名词（user, isActive, itemList）。
+    函数/方法：      使用动词或动词+名词（getUser, calculateTotal, renderView）。
+    布尔值：         以 is, has, can, should 开头（isValid, hasPermission）。
+    避免空洞的词汇：   如 data, info, process, handle, do。它们含义模糊，除非在泛型上下文（如 processData 作为高阶抽象）。
+    保持一致性：      在整个项目中使用相同的词汇表示相同概念（例如，一旦用了 fetch，就不要混用 get, retrieve）。
+    使用领域术语：    用业务领域的词汇（电商用 cart, inventory；金融用 ledger, interestRate）。
+

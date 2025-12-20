@@ -1,0 +1,91 @@
+
+计算机硬件/存储相关的隐喻
+    bus:    总线（公交巴士 → 数据通道）
+    port:   端口（港口 → 通信端点）
+    drive:  驱动器（驾驶 → 驱动设备）
+    mount:  挂载（登山 → 使存储设备可用）
+    socket: 套接字（插座 → 网络端点）
+    pipe:   管道（水管 → 进程间通信）
+    buffer: 缓冲区（减震器 → 临时存储区）
+    stack:  栈（一叠盘子 → LIFO数据结构）
+    heap:   堆（一堆杂物 → 动态内存区域）
+    queue:  队列（排队 → FIFO数据结构）
+
+数据处理与传输
+    marshall / unmarshall：编组/解组（元帅整理军队 → 数据序列化）
+    serialize / deserialize：序列化/反序列化（变成序列 → 转换为字节流）
+    throttle：节流（掐住脖子 → 限制速率）
+    debounce：防抖（消除抖动 → 防止频繁触发）
+    spool：假脱机（卷轴 → 缓冲输出）
+    flush：刷新（冲水 → 清空缓冲区）
+    stale：陈旧的（不新鲜 → 缓存过期）
+    fault：故障（过错 → 硬件/软件错误）
+    leak：泄漏（漏水 → 内存未释放）
+
+程序结构与执行
+    fork：分叉（餐叉 → 创建子进程）
+    daemon：守护进程（恶魔 → 后台服务进程）
+    zombie：僵尸进程（僵尸 → 已终止但未回收的进程）
+    orphan：孤儿进程（孤儿 → 父进程已终止的子进程）
+    mutex：互斥锁（mutual exclusion → 互斥量）
+    latch：锁存器（门闩 → 同步原语）
+    hook：钩子（鱼钩 → 拦截并修改执行流）
+    trap：陷阱（捕兽夹 → 异常捕获）
+    yield：让出（屈服 → 让出CPU控制权）
+    spawn：孵化（产卵 → 创建新进程/线程）
+
+网络与通信
+    socket: 套接字（插座 → 网络端点）
+    packet: 数据包（小包裹 → 网络传输单元）
+    tunnel: 隧道（地下通道 → 封装转发）
+    proxy: 代理（代理人 → 中间转发服务）
+    gateway: 网关（大门 → 网络出入口）
+    firewall: 防火墙（防火隔墙 → 网络安全屏障）
+    cookie: 小甜饼（饼干 → 网站存储的小数据）
+    beacon: 信标（灯塔 → 发送状态信号）
+    poll: 轮询（投票 → 定期检查状态）
+    broadcast: 广播（电台广播 → 向所有节点发送）
+
+数据与状态
+    dirty: 脏的（不干净 → 数据已被修改）
+    taint: 污染（弄脏 → 不可信数据标记）
+    clone: 克隆（无性繁殖 → 完整复制）
+    snapshot: 快照（照片 → 系统状态瞬时记录）
+    checkpoint: 检查点（检查站 → 保存进度点）
+    anchor: 锚点（船锚 → 定位基准点）
+    seed: 种子（植物的种子 → 随机数生成器的初始值）
+    hash: 哈希（切碎 → 散列函数）
+    bloom: 布隆（开花 → 一种概率数据结构）
+    padding: 填充（衬垫 → 补充字节使对齐）
+
+界面与交互
+    widget：小部件（小工具 → UI组件）
+    gadget：小器具（小装置 → 小型工具）
+    wizard：向导（巫师 → 引导式配置界面）
+    wizardry：魔法（巫术 → 高级技巧）
+    crumb / breadcrumb：面包屑（碎屑 → 导航路径）
+
+    toggle：切换（拴扣 → 两种状态切换）
+    toggle：切换（拴扣 → 两种状态切换）
+    carousel：旋转木马（游乐设施 → 轮播组件）
+    accordion：手风琴（乐器 → 折叠面板）
+    modal：模态（模式 → 阻塞式对话框）
+
+常见的抽象模式
+    物理→数字：file（文件夹 → 文件）、folder（文件夹 → 目录）
+    空间→逻辑：space（空间 → 存储容量）、room（房间 → 缓冲区）
+    生物→系统：spawn（产卵 → 创建）、kill（杀死 → 终止）
+    建筑→结构：scaffold（脚手架 → 基础代码）、architecture（建筑 → 系统设计）
+    文书→数据：document（文档 → 数据记录）、record（记录 → 数据行）
+
+历史遗留术语:
+    daemon：守护进程（源自 Maxwell's Demon，物理学思想实验）
+    cookie：网络饼干（据说来自 "magic cookie"，Unix术语）
+    bug：错误（源自早期计算机中飞蛾导致的故障）
+    spaghetti code：意大利面代码（混乱如面条）
+    kludge / kluge：临时解决方案（德语词，指笨拙但有效的装置）
+    glue code：胶水代码（粘合不同组件的代码）
+    yak shaving：剃牦牛（为完成A，先做B，为做B，先做C...）
+
+
+
