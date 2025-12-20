@@ -80,5 +80,3 @@ print(s.strip('ips'))  # 输出: "mississ" (移除开头/结尾的 'i','p','s')
 
 
 
-
-
