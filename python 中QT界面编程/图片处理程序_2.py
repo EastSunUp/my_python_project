@@ -1,3 +1,5 @@
+
+
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk
@@ -22,7 +24,6 @@ class ImageResizerApp:
         # 左侧面板 - 图片预览
         self.preview_frame = ttk.LabelFrame(self.main_frame, text="图片预览", padding=10)
         self.preview_frame.grid(row=0, column=0, padx=10, pady=10, sticky="nsew")
-
         self.preview_label = tk.Label(self.preview_frame, bg="white", width=40, height=20)
         self.preview_label.pack(padx=10, pady=10)
 
