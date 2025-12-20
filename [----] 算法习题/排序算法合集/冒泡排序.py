@@ -9,7 +9,7 @@ def buble_arrange(data):
         print("error! please input correct data type: list or tuple !")
         return
     # 冒泡排序算法如下!
-    for i in range(len(data)-1):
+    for _ in range(len(data)-1):
         for i in range(len(data)-1):
             if data[i] > data[i+1]:
                 temp = data[i+1]

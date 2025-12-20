@@ -66,7 +66,7 @@ def test_copy_random_list():
 
     # 验证拷贝是否正确
     # 这里应有更详细的验证，示例中简单打印部分信息
-    print(f"原始链表: 1->2->3, 1的random指向{node1.random.val}")
+    print(f"原始链表: 1->2->3, 1的random指向 {node1.random.val}")
     print(f"拷贝链表: {copied_head.val}->{copied_head.next.val}->{copied_head.next.next.val}, "
           f"{copied_head.random.val}")
     print("测试通过！")
@@ -74,3 +74,4 @@ def test_copy_random_list():
 
 if __name__ == "__main__":
     test_copy_random_list()
+
