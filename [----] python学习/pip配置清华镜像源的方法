@@ -1,0 +1,24 @@
+
+
+临时使用（单次安装）
+在安装某个库时，在命令后直接加上 -i 参数和镜像地址。这在只需要偶尔加速下载时非常方便。
+    pip install package_name -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+永久配置（一劳永逸）
+如果你希望以后所有安装都默认使用清华源，可以通过命令或修改配置文件来实现。
+    使用命令一键设置
+    在命令行中执行以下命令，pip 会自动完成配置：
+        pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+    手动修改配置文件
+    根据你的操作系统,创建或编辑对应的配置文件,并添加以下内容：
+    Windows系统： 文件路径为 %APPDATA%\pip\pip.ini
+    Linux/macOS系统： 文件路径为 ~/.pip/pip.conf
+        [global]
+        index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+除了清华源,国内还有一些其他高质量的选择,例如:
+    阿里云镜像源：https://mirrors.aliyun.com/pypi/simple/
+    中国科技大学镜像源：https://pypi.mirrors.ustc.edu.cn/simple/
+    腾讯云镜像源：https://mirrors.cloud.tencent.com/pypi/simple/

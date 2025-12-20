@@ -1,0 +1,35 @@
+
+python中的异常层次结构与类型系统
+
+BaseException
+ ├── SystemExit
+ ├── KeyboardInterrupt
+ ├── GeneratorExit
+ └── Exception
+      ├── StopIteration
+      ├── StopAsyncIteration
+      ├── ArithmeticError
+      │    ├── ZeroDivisionError
+      │    ├── FloatingPointError
+      │    └── OverflowError
+      ├── AssertionError
+      ├── AttributeError
+      ├── BufferError
+      ├── EOFError
+      ├── ImportError
+      ├── LookupError
+      │    ├── IndexError
+      │    └── KeyError
+      ├── MemoryError
+      ├── NameError
+      ├── OSError
+      │    ├── FileNotFoundError
+      │    ├── PermissionError
+      │    └── TimeoutError
+      ├── ReferenceError
+      ├── RuntimeError
+      ├── SyntaxError
+      ├── SystemError
+      ├── TypeError
+      ├── ValueError
+      └── Warning
