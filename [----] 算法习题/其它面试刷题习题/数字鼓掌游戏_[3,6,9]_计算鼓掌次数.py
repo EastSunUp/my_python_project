@@ -47,3 +47,6 @@ def solution(num):
 
     return ans_res
 
+num=10000
+print(f"the answer is {solution(num)}")
+
