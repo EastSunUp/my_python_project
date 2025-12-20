@@ -26,6 +26,8 @@ class MyPlugin2(Plugin):
 for plugin_class in Plugin.plugins:
     plugin_instance = plugin_class()
     plugin_instance.run()
+
 # 输出:
 # Plugin 1 running
 # Plugin 2 running
+

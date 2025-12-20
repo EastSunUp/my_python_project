@@ -34,3 +34,4 @@ obj.method2()
 # inside method1
 # Calling method: method2
 # inside method2
+
