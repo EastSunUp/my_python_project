@@ -1,5 +1,4 @@
 
-
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtWebEngineWidgets import QWebEngineView
@@ -59,7 +58,7 @@ class MainWindow(QMainWindow):
         self.channel = QWebChannel()
         self.handler = WebPageHandler()
 
-        # 注册对象，JavaScript中可以通过这个名称访问
+        # 注册对象, JavaScript中可以通过这个名称访问
         self.channel.registerObject("handler", self.handler)
         self.webView.page().setWebChannel(self.channel)
 

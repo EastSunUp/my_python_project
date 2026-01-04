@@ -1,7 +1,7 @@
 
 import tkinter as tk
 
-
+# Up Down Left Right
 # 1. 鼠标事件：
 #     <Button-1>：鼠标左键按下
 #     <Button-2>：鼠标中键按下
@@ -51,7 +51,6 @@ def on_resize(event):
 
 root = tk.Tk()
 root.geometry("400x300")
-
 
 # 绑定多种事件
 root.bind("<Button-1>", on_click)        # 鼠标左键点击
