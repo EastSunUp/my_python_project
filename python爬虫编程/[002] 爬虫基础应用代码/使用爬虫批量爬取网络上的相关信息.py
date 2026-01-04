@@ -93,3 +93,4 @@ async def async_scrape(url):
 async def batch_scrape(urls):
     tasks = [async_scrape(url) for url in urls]
     return await asyncio.gather(*tasks)
+
