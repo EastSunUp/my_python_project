@@ -1,0 +1,40 @@
+
+1. 数字类型数据
+    整型、浮点数、复数、布尔
+2.序列类型
+    字符串、列表、元组范围
+3.集合类型
+    集合、不可变集合
+4.映射类型
+    字典
+5.二进制类型
+    字节、字节数组、内存视图
+
+6.其它类型
+  None类型
+7.类型检查与转换
+    类型检查
+        print(type(10))        # <class 'int'>
+        print(type(3.14))      # <class 'float'>
+        print(type('hello'))   # <class 'str'>
+        print(isinstance(10, int))  # True
+    类型转换
+        int('123')      # 123
+        float('3.14')   # 3.14
+        str(100)        # '100'
+        bool(0)         # False
+        bool(1)         # True
+        list((1,2,3))   # [1, 2, 3]
+        tuple([1,2,3])  # (1, 2, 3)
+        set([1,2,2,3])  # {1, 2, 3}
+        dict([('a',1),('b',2)])  # {'a':1, 'b':2}
+
+8. 特殊说明
+    可变 vs 不可变类型
+        # 不可变类型（创建后不能修改）
+        # int, float, complex, bool, str, tuple, frozenset, bytes
+
+        # 可变类型（可以修改内容）
+        # list, dict, set, bytearray
+    注意:
+        python中不存在 char 类型,python中的字符串是一个长度为1的str类型.

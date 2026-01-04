@@ -1,0 +1,47 @@
+
+1. 通用规则
+    只能包含：字母、数字、下划线 _
+    不能以数字开头
+    不能是Python关键字（如if、for、class等）
+    区分大小写（name和Name是不同的变量）
+
+2. 命名约定（约定俗成的规范）
+    变量名
+    函数名
+    类名
+    模块和包名
+
+3. 特殊命名约定
+    单下划线开头
+        # 表示"内部使用", 非强制私有
+        # 内部函数, 不建议外部调用
+    双下划线开头
+        # 名称修饰, 用于避免子类命名冲突
+    单下划线
+        # 临时或无关紧要的变量
+        # 不需要使用的循环变量
+
+4. 命名建议
+    好的命名示例
+        # 描述性、清晰
+        # 动词命名函数
+    应避免的命名
+        # 不清晰
+            # 太模糊
+            # 无意义
+            # 无描述性
+        # 迷惑性的命名
+            # 覆盖内置类型
+            # 覆盖内置函数
+        # 不一致的格式
+
+5. 检查命名是否合法
+import keyword
+
+def is_valid_name(name):
+    return (name.isidentifier() and
+            not keyword.iskeyword(name))
+
+print(is_valid_name("my_var"))  # True
+print(is_valid_name("123var"))  # False
+print(is_valid_name("for"))     # False
