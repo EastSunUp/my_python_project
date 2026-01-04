@@ -15,7 +15,6 @@ def calc(arr):
                 r += 1
     return r  # 时间复杂度O(n²)
 
-
 def calc_2(arr):
     count = Counter(arr)
     # count.values()函数的功能是统计各元素在数组中出现的次数
@@ -55,3 +54,4 @@ print(calc(arr))
 print(calc_2(arr))  # 高水平代码
 calc_3(arr)
 calc_4(arr)
+
