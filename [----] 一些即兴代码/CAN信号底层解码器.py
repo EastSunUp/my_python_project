@@ -1,4 +1,5 @@
 
+import cantools
 
 def analyze_dbc_file(dbc_path: str):
     """分析DBC文件内容"""
