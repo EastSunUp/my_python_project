@@ -145,13 +145,13 @@ weather_map={
     "夜间温度":{"para_name": "nighttemp", "entry_width":7}
 }
 
-
 base_info_map={
     "省份名称": {"para_name":"province", "entry_width":7},
     "adcode":  {"para_name":"adcode", "entry_width": 7},
     "当前日期":{"para_name":"reporttime", "entry_width":18},
     "刷新时间":{"para_name":"reporttime", "entry_width":18}
 }
+
 # "城市":{"para_name":"date", "entry_width":7},
 # "获取状态是否成功":{"para_name":"nightweather", "entry_width":7}
 week_map={
