@@ -45,11 +45,11 @@ python中不支持以下哪个数据类型?
     C 字符串 char
     D 浮点float
 解析:
-    A 元组 tuple：Python 支持元组（tuple）, 通常用圆括号 () 表示, 如 (1, 2, 3).
-    B 集合 set：Python 支持集合（set）, 用花括号 {} 或 set() 创建, 如 {1, 2, 3}.
-    C 字符串 char：Python 没有单独的字符（char）类型.
+    A 元组 tuple: Python 支持元组（tuple）, 通常用圆括号 () 表示, 如 (1, 2, 3).
+    B 集合 set: Python 支持集合（set）, 用花括号 {} 或 set() 创建, 如 {1, 2, 3}.
+    C 字符串 char: Python 没有单独的字符（char）类型.
       字符在 Python 中是以长度为 1 的字符串（str）来表示的, 例如 'a' 是字符串类型.
-    D 浮点 float：Python 支持浮点数（float）, 用于表示小数, 如 3.14。
+    D 浮点 float: Python 支持浮点数（float）, 用于表示小数, 如 3.14。
 
     因此, Python 不支持的数据类型是 char（选项 C）.
     补充: 在C语言中, 是存在 char 类型的.
